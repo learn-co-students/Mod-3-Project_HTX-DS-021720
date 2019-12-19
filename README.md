@@ -23,66 +23,72 @@ All that remains for Module 3 is to complete the final project!
 
 ## The Project
 
-The main goal of this project is to create a classification model. For this project you'll have your choice of dataset (see below). Each comes with its own advantages and disadvantages, and, of course, its own associated business problem and stakeholders.
+The main goal of this project is to create a classification model. For this project you'll have your choice of dataset (see below). Each comes with its own advantages and disadvantages, and, of course, its own associated business problem and stakeholders. It may be desirable to flesh out your understanding of the audience or the business proposition more than we have sketched out here.
 
+## The Data
 
-### Selecting a Data Set
+1. [Chicago Car Crash Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if). Note this links also to [Vehicle Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3) and to [Driver/Passenger Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d).
 
-We encourage you to be very thoughtful when identifying your problem and selecting your data set--an overscoped project goal or a poor data set can quickly bring an otherwise promising project to a grinding halt.
+Build a classifier to predict the primary contributory cause of a car accident, given information about the car, the people in the car, the road conditions etc. You might imagine your audience as a Vehicle Safety Board who's interested in reducing traffic accidents, or as the City of Chicago who's interested in becoming aware of any interesting patterns. Note that there is a **multi-class** classification problem. You will almost certainly want to bin or trim or otherwise limit the number of target categories on which you ultimately predict. Note e.g. that some primary contributory causes have very few samples.
 
-To help you select an appropriate data set for this project, we've set some guidelines:
+2. [Terry Stops Data](https://catalog.data.gov/dataset/terry-stops).
+In [*Terry v. Ohio*](https://www.oyez.org/cases/1967/67), a landmark Supreme Court case in 1967-8, the court found that a police officer was not in violation of the "unreasonable search and seizure" clause of the Fourth Amendment, even though he stopped and frisked a couple of suspects only because their behavior was suspicious. Thus was born the notion of "reasonable suspicion", according to which an agent of the police may e.g. temporarily detain a person, even in the absence of clearer evidence that would be required for full-blown arrests etc. Terry Stops are stops made of suspicious drivers.
 
-1. Your dataset should work for classification. The classification task can be either binary or multiclass, as long as it's a classification model.   
+Build a classifier to predict whether an arrest was made after a Terry Stop, given information about the presence of weapons, the time of day of the call, etc. Note that this is a **binary** classification problem.
 
-2. Your dataset needs to be of sufficient complexity. Try to avoid picking an overly simple dataset. Try to avoid extremely small datasets, as well as the most common datasets like titanic, iris, MNIST, etc. We want to see all the steps of the Data Science Process in this project--it's okay if the dataset is mostly clean, but we expect to see some preprocessing and exploration. See the following section, **_Data Set Constraints_**, for more information on this.   
+Note that this dataset also includes information about gender and race. You **may** use this data as well. You may, e.g. pitch your project as an inquiry into whether race (of officer or of subject) plays a role in whether or not an arrest is made.
 
-3. On the other end of the spectrum, don't pick a problem that's too complex, either. Stick to problems that you have a clear idea of how you can use machine learning to solve it. For now, we recommend you stay away from overly complex problems in the domains of Natural Language Processing or Computer Vision--although those domains make use of Supervised Learning, they come with a lot of other special requirements and techniques that you don't know yet (but you'll learn soon!). If you're chosen problem feels like you've overscoped, then it probably is. If you aren't sure if your problem scope is appropriate, double check with your instructor!  
+If you **do** elect to make use of race or gender data, be aware that this can make your project a highly sensitive one; your discretion will be important, as well as your transparency about how you use the data and the ethical issues surrounding it.
 
-4. **_Serious Bonus Points_** if some or all of the data is data you have to source yourself through web scraping or interacting with a 3rd party API! Having projects that show off your ability to source data effectively make you look that much more impressive when showing your work off to potential employers!
+3. [Customer Churn Data]
 
-### Data Set Constraints
+Build a classifier to predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company. Note that this is a **binary** classification problem.
 
-When selecting a data set, be sure to take into consideration the following constraints:
+Most naturally, your audience here would be the telecom business itself, interested in losing money on customers who don't stick around very long. Are there any predictable patterns here? Here again there **may** be sensitive information.
 
-1. Your data set can't be one we've already worked with in any labs.
-2. Your data set should contain a minimum of 1000 rows.    
-3. Your data set should contain a minimum of 10 predictor columns, before any one-hot encoding is performed.   
-4. Your instructor must provide final approval on your data set.
+4. [Tanzanian Water Well Data](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/) (*active competition*!)
+Tanzania, as a developing country, struggles with providing clean water to its population of over 57,000,000. There are many waterpoints already established in the country, but some are in need of repair while others have failed altogether.
 
-### Problem First, or Data First?
+Build a classifier to predict the condition of a water well, using information about the sort of pump, when it was installed, etc. Note that this is a **ternary** classification problem.
 
-There are two ways that you can about getting started: **_Problem-First_** or **_Data-First_**.
+## DELIVERABLES
 
-**_Problem-First_**: Start with a problem that you want to solve with classification, and then try to find the data you need to solve it.  If you can't find any data to solve your problem, then you should pick another problem.
-
-**_Data-First_**: Take a look at some of the most popular internet repositories of cool data sets we've listed below. If you find a data set that's particularly interesting for you, then it's totally okay to build your problem around that data set.
-
-There are plenty of amazing places that you can get your data from. We recommend you start looking at data sets in some of these resources first:
-
-* [UCI Machine Learning Datasets Repository](https://archive.ics.uci.edu/ml/datasets.html)
-* [Kaggle Datasets](https://www.kaggle.com/datasets)
-* [Awesome Datasets Repo on Github](https://github.com/awesomedata/awesome-public-datasets)
-* [New York City Open Data Portal](https://opendata.cityofnewyork.us/)
-* [Inside AirBNB ](http://insideairbnb.com/)
-
-
-## The Deliverables
-
-For online students, your completed project should contain the following four deliverables:
-
-1. A **_Jupyter Notebook_** containing any code you've written for this project. This work will need to be pushed to your GitHub repository in order to submit your project.
-
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository. 
-
-3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging)_**.
-
-4. An **_"Executive Summary" PowerPoint Presentation_** that gives a brief overview of your problem/dataset, and each step of the OSEMN process.
-
-Note: On-campus students may have different deliverables, please speak with your instructor.
-
-### Jupyter Notebook Must-Haves
-
-For this project, your Jupyter Notebook should meet the following specifications:
+1. A public GitHub repository.
+2. An `environment.yml` file that contains all the necessary packages needed to recreate your conda environment.
+3. A standalone `src/` directory that stores all relevant source code.
+    - All functions have docstrings that act as [professional-quality documentation](http://google.github.io/styleguide/pyguide.html#381-docstrings). 
+    - If applicable, [well documented](https://www.sqlstyle.guide/) SQL queries with appropriate single-line or multiline comments.
+    - Quality classification model
+       - Be prepared for questions about model and hyperparameter choice
+4. A standalone `data/` directory that stores all relevant raw and processed data files
+    - Be sure to include how the data was obtained!
+    - All large files are labeled in the `.gitignore` file to avoid having them accidentally live in your commit history.
+5. A standalone `references/` directory that stores all relevant literature, data dictionaries, or useful references that were used to help you during the project.
+    - Use this directory to store physical copies of the `.pdf` files; or
+    - Create a `README.md` file that cites external resources that were used.
+6. A standalone `reports/` directory that stores your `memo.md` and `presentation.pdf` files
+7. A user-focused `README.md` file that explains your process, methodology and findings.
+    - Take the time to make sure that you craft your story well, and clearly explain your process and findings in a way that clearly shows both your technical expertise and your ability to communicate your results!
+8. One Jupyter Notebook file that focuses on EDA, visualization, and presentation. 
+    - The very beginning of the notebook contains a description of the purpose of the notebook.
+       - This is helpful for your future self and anyone of your colleagues that needs to view your notebook. Without this context, you’re implicitly asking your peers to invest a lot of energy to help solve your problem. Help them by enabling them to jump into your project by providing them the purpose of this Jupyter Notebook.
+    - Explanation of the data sources and where one can retrieve them
+       - Whenever possible, link to the corresponding data dictionary
+    - Custom functions and classes are imported from Python modules and are not created directly in the notebook.
+    - At least 4 meaningful data visualizations, with corresponding interpretations. All visualizations are well labeled with axes labels, a title, and a legend (when appropriate)
+9. A one-page memo written exclusively for a non-technical stakeholder with a file name `memo.md`.
+    - This memo should describe:
+       - A summary of the business problem you are trying to solve
+       - Key takeaways from your solution
+       - A section on next steps if you had more time (i.e. one additional week)
+10. An "Executive Summary" Keynote/PowerPoint/Google Slide presentation (delivered as a PDF export) that explains what you have found.
+    - Make sure to also add and commit this file as presentation.pdf of your non-technical presentation to your repository with a file name of `presentation.pdf`.
+    - Contain between 5-10 professional quality slides detailing:
+       - A high-level overview of your methodology
+       - The results you’ve uncovered
+       - Any real-world recommendations you would like to make based on your findings (ask yourself--why should the executive team care about what you found? How can your findings help the company/stakeholder?)
+       - Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences.
+    - The slides should use visualizations whenever possible, and avoid walls of text
 
 **_Organization/Code Cleanliness_**
 
