@@ -4,12 +4,12 @@
 
 ## Introduction
 
-In this lesson, we'll review all the guidelines and specifications for the final project for Module 5.
+In this lesson, we'll review all the guidelines and specifications for the final project for Module 3.
 
 
 ## Objectives
 
-* Understand all required aspects of the Final Project for Module 5
+* Understand all required aspects of the Final Project for Module 3
 * Understand all required deliverables
 * Understand what constitutes a successful project
 
@@ -19,11 +19,11 @@ Congratulations! You've made it through another _intense_ module, and now you're
 
 ![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-5-project/master/smart.gif)
 
-All that remains for Module 5 is to complete the final project!
+All that remains for Module 3 is to complete the final project!
 
 ## The Project
 
-For this project, you're going to select a dataset of your choosing and create a classification model. You'll start by identifying a problem you can solve with classification, and then identify a dataset. You'll then use everything you've learned about Data Science and Machine Learning thus far to source a dataset, preprocess and explore it, and then build and interpret a classification model that answers your chosen question.
+The main goal of this project is to create a classification model. For this project you'll have your choice of dataset (see below). Each comes with its own advantages and disadvantages, and, of course, its own associated business problem and stakeholders.
 
 
 ### Selecting a Data Set
@@ -93,12 +93,4 @@ For this project, your Jupyter Notebook should meet the following specifications
 **_Process, Methodology, and Findings_**
 
 * Your notebook should contain a clear record of your process and methodology for exploring and preprocessing your data, building and tuning a model, and interpreting your results.
-* We recommend you use the OSEMN process to help organize your thoughts and stay on track.
-
-### Blog Post Must-Haves
-
-Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging) for the technical requirements and blog ideas.
-
-## Grading Rubric 
-
-Online students can find a PDF of the grading rubric for the project [here](https://github.com/learn-co-curriculum/dsc-mod-5-project/blob/master/module5_project_rubric.pdf). _Note: On-campus students may have different requirements, please speak with your instructor._ 
+* We recommend you use the CRISP-DM process to help organize your thoughts and stay on track.
