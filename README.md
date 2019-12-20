@@ -1,5 +1,5 @@
 
-# Module 5 Final Project
+# Module 3 Project
 
 
 ## Introduction
@@ -9,17 +9,17 @@ In this lesson, we'll review all the guidelines and specifications for the final
 
 ## Objectives
 
-* Understand all required aspects of the Final Project for Module 3
+* Understand all required aspects of the Module 3 project
 * Understand all required deliverables
 * Understand what constitutes a successful project
 
-## Final Project Summary
+## Project Summary
 
 Congratulations! You've made it through another _intense_ module, and now you're ready to show off your newfound Machine Learning skills!
 
 ![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-5-project/master/smart.gif)
 
-All that remains for Module 3 is to complete the final project!
+All that remains for Module 3 is to complete the project!
 
 ## The Project
 
