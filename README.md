@@ -99,4 +99,50 @@ Build a classifier to predict the condition of a water well, using information a
 **_Process, Methodology, and Findings_**
 
 * Your notebook should contain a clear record of your process and methodology for exploring and preprocessing your data, building and tuning a model, and interpreting your results.
-* We recommend you use the CRISP-DM process to help organize your thoughts and stay on track.
+* We recommend you use the CRISP-DM process to help organize your thoughts and stay on track (see below for a refresher).
+
+## THE PROCESS
+
+These steps are informed by Smart Vision's<sup>9</sup> description of the CRISP-DM process.
+
+### 1. Business Understanding
+
+Start by reading this document, and making sure that you understand the kinds of questions being asked.  In order to narrow your focus, you will likely want to make some design choices about your specific audience, rather than addressing all of the "many people" mentioned in the background section.  Do you want to emphasize affordability, investment, or something else?  This framing will help you choose which stakeholder claims to address.
+
+Three things to be sure you establish during this phase are:
+
+1. **Objectives:** what questions are you trying to answer, and for whom?
+2. **Project plan:** you may want to establish more formal project management practices, such as daily stand-ups or using a Trello board, to plan the time you have remaining.  Regardless you should determine the division of labor, communication expectations, and timeline.
+3. **Success criteria:** what does a successful project look like?  How will you know when you have achieved it?
+
+### 2. Data Understanding
+
+Write a script to download the data (or instructions for future users on how to manually download it), and explore it.  Do you understand what the columns mean?  How do the three data tables relate to each other?  How will you select the subset of relevant data?  What kind of data cleaning is required?
+
+It may be useful to generate visualizations of the data during this phase.
+
+### 3. Data Preparation
+
+Through SQL and Pandas, perform any necessary data cleaning and develop a query that pulls in all relevant data for analysis in a linear regression model, including any merging of tables.  Be sure to document any data that you choose to drop or otherwise exclude.  This is also the phase to consider any feature scaling or one-hot encoding required to feed the data into a classification model.
+
+### 4. Modeling
+
+The focus this time is on prediction. Good prediction is a matter of the model generalizing well. Steps we can take to assure good generalization include: testing the model on unseen data, cross-validation, and regularization. What sort of model should you build? A diverse portfolio is probably best. Classification models we've looked at so far include logistic regression, decision trees, bagging, and boosting, each of these with different flavors. You are encouraged to try any or all of these.
+
+### 5. Evaluation
+
+Recall that there are many different metrics we might use for evaluating a classification model. Accuracy is intuitive, but can be misleading, especially if you have class imbalances in your target. Perhaps, depending on you're defining things, it is more important to minimize false positives, or false negatives. It might therefore be more appropriate to focus on precision or recall. You might also calculate the AUC-ROC to measure your model's *discrimination*.
+
+### 6. Deployment
+
+In this case, your "deployment" comes in the form of the deliverables listed above. Make sure you can answer the following questions about your process:
+
+ - "How did you pick the question(s) that you did?"
+ - "Why are these questions important from a business perspective?"
+ - "How did you decide on the data cleaning options you performed?"
+ - "Why did you choose a given method or library?"
+ - "Why did you select those visualizations and what did you learn from each of them?"
+ - "Why did you pick those features as predictors?"
+ - "How would you interpret the results?"
+ - "How confident are you in the predictive quality of the results?"
+ - "What are some of the things that could cause the results to be wrong?"
