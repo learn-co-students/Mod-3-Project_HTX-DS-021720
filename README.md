@@ -103,7 +103,7 @@ Build a classifier to predict the condition of a water well, using information a
 
 ## THE PROCESS
 
-These steps are informed by Smart Vision's<sup>9</sup> description of the CRISP-DM process.
+These steps are informed by Smart Vision's<sup>1</sup> description of the CRISP-DM process.
 
 ### 1. Business Understanding
 
@@ -146,3 +146,7 @@ In this case, your "deployment" comes in the form of the deliverables listed abo
  - "How would you interpret the results?"
  - "How confident are you in the predictive quality of the results?"
  - "What are some of the things that could cause the results to be wrong?"
+
+## Citation
+
+1. "What is the CRISP-DM Methodology?" Smart Vision Europe. Available at: https://www.sv-europe.com/crisp-dm-methodology/
