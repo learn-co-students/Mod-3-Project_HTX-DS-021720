@@ -1,7 +1,6 @@
 
 # Module 3 Project
 
-
 ## Project Summary
 
 Congratulations! You've made it through another _intense_ module, and now you're ready to do all kinds of classification!
@@ -15,6 +14,8 @@ All that remains for Module 3 is to complete the project!
 The main goal of this project is to create a classification model. 
 
 For this project you'll have your choice of dataset (see below). Each comes with its own advantages and disadvantages, and, of course its own associated business problem and stakeholders.
+
+We'll be deciding teams based on the data you'd like to work with, so please read through the descriptions of the options and discuss with your peers to find a group. The goal is to have teams of 2-3 people, so if more than 4 people would like to work on a dataset (totally fine!) then please break down into smaller groups. 
 
 ### The Data
 
