@@ -15,7 +15,7 @@ The main goal of this project is to create a classification model.
 
 For this project you'll have your choice of dataset (see below). Each comes with its own advantages and disadvantages, and, of course its own associated business problem and stakeholders.
 
-We'll be deciding teams based on the data you'd like to work with, so please read through the descriptions of the options and discuss with your peers to find a group. The goal is to have teams of 2-3 people, so if more than 4 people would like to work on a dataset (totally fine!) then please break down into smaller groups. 
+We'll be deciding teams based on the data you'd like to work with, so please read through the descriptions of the options and pick your favorite, then we'll help divide everyone in teams of 2-3. We are looking for teams we think will work well together and who haven't worked together much before, so we reserve the right to reassign teams - aka don't pick a dataset just to try to work with someone, pick the data you think you'll enjoy working on!
 
 ### The Data
 
