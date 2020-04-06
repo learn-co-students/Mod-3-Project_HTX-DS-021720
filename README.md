@@ -5,7 +5,7 @@
 
 Congratulations! You've made it through another _intense_ module, and now you're ready to do all kinds of classification!
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-5-project/master/smart.gif)
+![I feel so good and confident gif from GIPHY](goodconfident.gif)
 
 All that remains for Module 3 is to complete the project!
 
@@ -25,23 +25,23 @@ Tanzania, as a developing country, struggles with providing clean water to its p
 
 Build a classifier to predict the condition of a water well, using information about the pump, when it was installed, etc. Note that this is a **ternary** classification problem.
 
-**Option 2: [Terry Stops Data](https://catalog.data.gov/dataset/terry-stops)**
-
-In [*Terry v. Ohio*](https://www.oyez.org/cases/1967/67), a landmark Supreme Court case in 1967-8, the court found that a police officer was not in violation of the "unreasonable search and seizure" clause of the Fourth Amendment, even though he stopped and frisked a couple of suspects only because their behavior was suspicious. Thus was born the notion of "reasonable suspicion", according to which an agent of the police may, for example, temporarily detain a person, even in the absence of clearer evidence that would be required for full-blown arrests, etc. Terry Stops are stops made of suspicious drivers.
-
-Build a classifier to predict whether an arrest was made after a Terry Stop, given information about the presence of weapons, the time of day of the call, etc. Note that this is a **binary** classification problem.
-
-Also note that this dataset includes information about gender and race. You **may** choose to use this data, or you may choose not to. For example, you might choose to pitch your project as an inquiry into whether race (of officer or of subject) plays a role in whether or not an arrest is made. If you do elect to make use of race or gender data, be aware that this can make your project a highly sensitive one; your discretion will be important, as well as your transparency about how you use the data and the ethical issues surrounding it.
-
-**Option 3: [Customer Churn Data](https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)**
+**Option 2: [Customer Churn Data](https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)**
 
 It's common enough that customers move from one telecommunications company to another to take advantage of the best deals, and thus telecommunications companies want to predict whether a customer will 'churn' - in other words, these companies are asking whether they are likely to lose money on a customer that does not stick around very long. 
 
 Build a classifier to predict whether a customer will ("soon") stop doing business with a telecommunications company, given information on the customers, their phone calls and charges, etc. Note that this is a **binary** classification problem.
 
+**Option 3: [Chicago Car Crash Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)**
+
+Note that this dataset also links to [Chicago Vehicle Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3) and to [Chicago Driver/Passenger Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d).
+
+Any major city needs to be aware of traffic accident data, to find out if there are interesting patterns or trends which may point to a problem that could be fixed - thus potentially saving lives.
+
+Build a classifier to predict the primary contributory cause of a car accident, given information about the car, the people in the car, the road conditions etc.  Note that there is a **multi-class** classification problem. You will almost certainly want to bin, trim or otherwise limit the number of target categories on which you ultimately predict - you'll see that some primary contributory causes have very few samples.
+
 **Option 4: Find your own data to classify**
 
-If you'd prefer to find your own dataset upon which to build a classification model, you can present your dataset and your expectations for your projedct no later than noon on Tuesday, January 21. Note that this would likely require you to explore datasets over MLK weekend since there won't be a lot of time while here to find the data and verify it, but we'd like to give you the option to do a different project if you'd prefer!
+If you'd prefer to find your own dataset upon which to build a classification model, you can present your dataset and your expectations for your projedct no later than noon on Friday, April 10. Note that this would likely require you to explore datasets over MLK weekend since there won't be a lot of time while here to find the data and verify it, but we'd like to give you the option to do a different project if you'd prefer!
 
 ## Deliverables
 
