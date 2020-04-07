@@ -17,6 +17,8 @@ For this project you'll have your choice of dataset (see below). Each comes with
 
 We'll be deciding teams based on the data you'd like to work with, so please read through the descriptions of the options and pick your favorite, then we'll help divide everyone in teams of 2-3. We are looking for teams we think will work well together and who haven't worked together much before, so we reserve the right to reassign teams - aka don't pick a dataset just to try to work with someone, pick the data you think you'll enjoy working on!
 
+You should let us know your preferred first and second choices from the options below by **end-of-day on Thursday, April 9** - we will decide the groups and let you know who you're working with first thing on **Friday, April 10**.
+
 ### The Data
 
 **Option 1: [Tanzanian Water Well Data](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/)** (*active competition!*)
@@ -41,7 +43,7 @@ Build a classifier to predict the primary contributory cause of a car accident, 
 
 **Option 4: Find your own data to classify**
 
-If you'd prefer to find your own dataset upon which to build a classification model, you can present your dataset and your expectations for your projedct no later than noon on Friday, April 10. Note that this would likely require you to explore datasets over MLK weekend since there won't be a lot of time while here to find the data and verify it, but we'd like to give you the option to do a different project if you'd prefer!
+If you'd prefer to find your own dataset upon which to build a classification model, you can present your dataset and your expectations for your project no later than **end-of-day on Thursday, April 9**. Note that there won't be a lot of time to find the data and verify it, but we'd like to give you the option to do a different project if you'd prefer!
 
 ## Deliverables
 
@@ -90,6 +92,8 @@ If you'd prefer to find your own dataset upon which to build a classification mo
     
     - The slides should use visualizations whenever possible, and avoid walls of text
     - Avoid technical jargon and explain results in a clear, actionable way for non-technical audiences
+
+![Gonna be great, let's do it gif with the Rock, from GIPHY](letsdoit.gif)
 
 ## The Process
 
